@@ -1,0 +1,50 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+  }
+  
+  .nav-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-logo img {
+    height: 120px; /* Increased by 20 pixels */
+    margin-right: 10px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-menu li {
+    cursor: pointer;
+  }
+  
+  .nav-login-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nav-login-cart button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .nav-login-cart img {
+    height: 50px; /* Adjust as needed */
+  }
+  
